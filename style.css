@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(images/blockchain1.jpg);
+    min-height: 100%;
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.pimg2{
+    background-image: url(images/blockchain2.webp);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/blockchain3.avif);
+    min-height: 500px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.textBg{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color:white;
+    color: gray;
+}
+.section-dark{
+    background-color: rgb(55, 86, 133);
+    color: black;
+}
+.section-sky{
+    background-color: goldenrod;
+    color: #000;
+}
+.button1{
+    border-radius: 15px;
+    /* color: rgb(3, 4, 23); */
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #e1db13; 
+    
+}
+.button1:hover{
+    background-color: #fbfbfa;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.textBg1 a{
+    text-decoration: none;
+    color: #000000;
+}
